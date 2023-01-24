@@ -1,0 +1,11 @@
+.icon-container svg {
+  width: 75px;
+  height: 75px;
+  fill: #444;
+  stroke: #444;
+}
+
+.icon-colored svg {
+  stroke: #dd4b55;
+  fill: #dd4b55;
+}
