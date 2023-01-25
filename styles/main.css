@@ -1367,6 +1367,11 @@ header.overflow .navbar-brand {
 header.overflow .navbar-center {
   transform: translateX(-60px);
 }
+@media (max-width: 768px) {
+  header.overflow .navbar-center {
+    transform: none;
+  }
+}
 @media (max-width: 991px) {
   header .navbar-brand {
     max-width: calc(100% - 60px);
@@ -1421,6 +1426,11 @@ header.overflow .navbar-default .navbar-nav {
 @media (min-width: 1600px) {
   header.overflow .navbar-default .navbar-nav {
     margin: 31px 42px 25px 0;
+  }
+}
+@media (max-width: 768px) {
+  header.overflow .navbar-default .navbar-nav {
+    margin: 25px 42px 25px 42px;
   }
 }
 header.overflow .navbar {
@@ -1551,6 +1561,11 @@ header.overflow.fixed {
 .navbar-default .navbar-center > li {
   float: none;
   display: inline-block;
+}
+@media (max-width: 768px) {
+  .navbar-default .navbar-center > li {
+    display: block;
+  }
 }
 .navbar-default .navbar-toggle {
   border: none;
